@@ -1,0 +1,196 @@
+﻿生成启动时间为 2019/5/29 12:21:32。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\mywebsocket\mywebsocket.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\mywebsocket.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt base64.cpp connection.cpp demo\demo.cpp demo\user.cpp frame.cpp md5\md5.cpp websocket.cpp
+         websocket.cpp
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\tools.h(18): error C2010: “.”: 宏形参表中的意外
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\tools.h(42): warning C4244: “参数”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\tools.h(47): warning C4244: “参数”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\websocket.h(16): fatal error C1083: 无法打开包括文件:“openssl/sha.h”: No such file or directory
+         md5.cpp
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(17): error C2061: 语法错误: 标识符“int32_t”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(17): error C2535: “std::string MD5::calc(const char *)”: 已经定义或声明成员函数
+                 c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(16) : 参见“MD5::calc”的声明
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(24): error C2146: 语法错误: 缺少“;”(在标识符“T”的前面)
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(25): error C2146: 语法错误: 缺少“;”(在标识符“CV”的前面)
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(26): error C2146: 语法错误: 缺少“;”(在标识符“R”的前面)
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(26): error C2086: “const int MD5::uint32_t”: 重定义
+                 c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(25) : 参见“MD5::uint32_t”的声明
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(28): error C2061: 语法错误: 标识符“int32_t”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(29): error C2146: 语法错误: 缺少“;”(在标识符“rotate_left”的前面)
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(29): error C2433: “MD5::uint32_t”: 不允许在数据声明中使用“inline”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(29): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(29): error C2061: 语法错误: 标识符“uint32_t”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(29): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(29): warning C4183: “rotate_left”: 缺少返回类型；假定为返回“int”的成员函数
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(30): error C2061: 语法错误: 标识符“uint32_t”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(31): error C2146: 语法错误: 缺少“;”(在标识符“_reverse”的前面)
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(31): error C2433: “MD5::uint32_t”: 不允许在数据声明中使用“inline”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(31): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(31): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(31): error C2146: 语法错误: 缺少“,”(在标识符“n”的前面)
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(31): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(31): warning C4183: “_reverse”: 缺少返回类型；假定为返回“int”的成员函数
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(33): error C2146: 语法错误: 缺少“;”(在标识符“F”的前面)
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(33): error C2433: “MD5::uint32_t”: 不允许在数据声明中使用“inline”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(33): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(33): error C2061: 语法错误: 标识符“uint32_t”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(33): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(33): warning C4183: “F”: 缺少返回类型；假定为返回“int”的成员函数
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(34): error C2146: 语法错误: 缺少“;”(在标识符“G”的前面)
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(34): error C2433: “MD5::uint32_t”: 不允许在数据声明中使用“inline”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(34): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(34): error C2061: 语法错误: 标识符“uint32_t”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(34): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(34): warning C4183: “G”: 缺少返回类型；假定为返回“int”的成员函数
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(35): error C2146: 语法错误: 缺少“;”(在标识符“H”的前面)
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(35): error C2433: “MD5::uint32_t”: 不允许在数据声明中使用“inline”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(35): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(35): error C2061: 语法错误: 标识符“uint32_t”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(35): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(35): warning C4183: “H”: 缺少返回类型；假定为返回“int”的成员函数
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(36): error C2146: 语法错误: 缺少“;”(在标识符“I”的前面)
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(36): error C2433: “MD5::uint32_t”: 不允许在数据声明中使用“inline”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(36): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(36): error C2061: 语法错误: 标识符“uint32_t”
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(36): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(36): warning C4183: “I”: 缺少返回类型；假定为返回“int”的成员函数
+     1>md5\md5.cpp(4): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>md5\md5.cpp(4): error C2039: “CV”: 不是“MD5”的成员
+                 c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(12) : 参见“MD5”的声明
+     1>md5\md5.cpp(4): error C2146: 语法错误: 缺少“;”(在标识符“CV”的前面)
+     1>md5\md5.cpp(4): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>md5\md5.cpp(9): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>md5\md5.cpp(9): error C2039: “R”: 不是“MD5”的成员
+                 c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(12) : 参见“MD5”的声明
+     1>md5\md5.cpp(9): error C2146: 语法错误: 缺少“;”(在标识符“R”的前面)
+     1>md5\md5.cpp(9): error C2086: “const int uint32_t”: 重定义
+                 md5\md5.cpp(4) : 参见“uint32_t”的声明
+     1>md5\md5.cpp(9): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>md5\md5.cpp(20): error C2668: “pow”: 对重载函数的调用不明确
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(583): 可能是“long double pow(long double,int)”
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(535): 或       “float pow(float,int)”
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>md5\md5.cpp(20): error C2668: “sin”: 对重载函数的调用不明确
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(585): 可能是“long double sin(long double)”
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(537): 或       “float sin(float)”
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(123): 或       “double sin(double)”
+                 尝试匹配参数列表“(int)”时
+     1>md5\md5.cpp(24): error C2065: “T”: 未声明的标识符
+     1>md5\md5.cpp(34): error C2660: “MD5::calc”: 函数不接受 2 个参数
+     1>md5\md5.cpp(38): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>md5\md5.cpp(38): error C2146: 语法错误: 缺少“,”(在标识符“len”的前面)
+     1>md5\md5.cpp(38): error C2511: “std::string MD5::calc(const char *,const int)”:“MD5”中没有找到重载的成员函数
+                 c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\md5\md5.h(12) : 参见“MD5”的声明
+     1>md5\md5.cpp(94): error C2143: 语法错误 : 缺少“;”(在“MD5::rotate_left”的前面)
+     1>md5\md5.cpp(94): error C2433: “uint32_t”: 不允许在数据声明中使用“inline”
+     1>md5\md5.cpp(94): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>md5\md5.cpp(94): error C2373: “uint32_t”: 重定义；不同的类型修饰符
+                 md5\md5.cpp(4) : 参见“uint32_t”的声明
+     1>md5\md5.cpp(94): error C2146: 语法错误: 缺少“)”(在标识符“num”的前面)
+     1>md5\md5.cpp(94): error C2761: “int MD5::rotate_left(void) const”: 不允许成员函数重新声明
+     1>md5\md5.cpp(94): error C2059: 语法错误:“)”
+     1>md5\md5.cpp(94): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>md5\md5.cpp(94): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>md5\md5.cpp(99): error C2146: 语法错误: 缺少“)”(在标识符“a”的前面)
+     1>md5\md5.cpp(99): error C2761: “std::string MD5::_gen_md5_str(void) const”: 不允许成员函数重新声明
+     1>md5\md5.cpp(99): error C2059: 语法错误:“)”
+     1>md5\md5.cpp(99): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>md5\md5.cpp(99): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>md5\md5.cpp(106): error C2143: 语法错误 : 缺少“;”(在“MD5::_reverse”的前面)
+     1>md5\md5.cpp(106): error C2433: “uint32_t”: 不允许在数据声明中使用“inline”
+     1>md5\md5.cpp(106): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>md5\md5.cpp(106): error C2373: “uint32_t”: 重定义；不同的类型修饰符
+                 md5\md5.cpp(4) : 参见“uint32_t”的声明
+     1>md5\md5.cpp(106): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>md5\md5.cpp(106): error C2146: 语法错误: 缺少“,”(在标识符“n”的前面)
+     1>md5\md5.cpp(106): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>md5\md5.cpp(107): error C2065: “n”: 未声明的标识符
+     1>md5\md5.cpp(107): error C2065: “n”: 未声明的标识符
+     1>md5\md5.cpp(107): error C2065: “n”: 未声明的标识符
+     1>md5\md5.cpp(107): error C2065: “n”: 未声明的标识符
+     1>md5\md5.cpp(111): error C2061: 语法错误: 标识符“int32_t”
+     1>md5\md5.cpp(112): error C2065: “int32_t”: 未声明的标识符
+     1>md5\md5.cpp(112): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+     1>md5\md5.cpp(112): error C2065: “x”: 未声明的标识符
+     1>md5\md5.cpp(112): error C2065: “len”: 未声明的标识符
+     1>md5\md5.cpp(113): error C2065: “int32_t”: 未声明的标识符
+     1>md5\md5.cpp(113): error C2146: 语法错误: 缺少“;”(在标识符“bit_to_fill”的前面)
+     1>md5\md5.cpp(113): error C2065: “bit_to_fill”: 未声明的标识符
+     1>md5\md5.cpp(113): error C2065: “x”: 未声明的标识符
+     1>md5\md5.cpp(113): error C2065: “x”: 未声明的标识符
+     1>md5\md5.cpp(113): error C2065: “x”: 未声明的标识符
+     1>md5\md5.cpp(117): error C2065: “bit_to_fill”: 未声明的标识符
+     1>md5\md5.cpp(118): error C2065: “int32_t”: 未声明的标识符
+     1>md5\md5.cpp(118): error C2146: 语法错误: 缺少“;”(在标识符“byte_to_fill”的前面)
+     1>md5\md5.cpp(118): error C2065: “byte_to_fill”: 未声明的标识符
+     1>md5\md5.cpp(118): error C2065: “bit_to_fill”: 未声明的标识符
+     1>md5\md5.cpp(119): error C2065: “int32_t”: 未声明的标识符
+     1>md5\md5.cpp(119): error C2146: 语法错误: 缺少“;”(在标识符“new_len”的前面)
+     1>md5\md5.cpp(119): error C2065: “new_len”: 未声明的标识符
+     1>md5\md5.cpp(119): error C2065: “len”: 未声明的标识符
+     1>md5\md5.cpp(119): error C2065: “byte_to_fill”: 未声明的标识符
+     1>md5\md5.cpp(121): error C2065: “new_len”: 未声明的标识符
+     1>md5\md5.cpp(124): error C2065: “len”: 未声明的标识符
+     1>md5\md5.cpp(125): error C2065: “len”: 未声明的标识符
+     1>md5\md5.cpp(126): error C2065: “byte_to_fill”: 未声明的标识符
+     1>md5\md5.cpp(135): error C2065: “int64_t”: 未声明的标识符
+     1>md5\md5.cpp(135): error C2146: 语法错误: 缺少“;”(在标识符“length”的前面)
+     1>md5\md5.cpp(135): error C2065: “length”: 未声明的标识符
+     1>md5\md5.cpp(135): error C2065: “len”: 未声明的标识符
+     1>md5\md5.cpp(136): error C2065: “length”: 未声明的标识符
+     1>md5\md5.cpp(138): error C2065: “outbuf”: 未声明的标识符
+     1>md5\md5.cpp(139): error C2065: “outlen”: 未声明的标识符
+     1>md5\md5.cpp(139): error C2065: “new_len”: 未声明的标识符
+     1>md5\md5.cpp(141): error C2065: “bit_to_fill”: 未声明的标识符
+     1>md5\md5.cpp(145): error C2143: 语法错误 : 缺少“;”(在“MD5::F”的前面)
+     1>md5\md5.cpp(145): error C2433: “uint32_t”: 不允许在数据声明中使用“inline”
+     1>md5\md5.cpp(145): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>md5\md5.cpp(145): error C2373: “uint32_t”: 重定义；不同的类型修饰符
+                 md5\md5.cpp(4) : 参见“uint32_t”的声明
+     1>md5\md5.cpp(145): error C2146: 语法错误: 缺少“)”(在标识符“x”的前面)
+     1>md5\md5.cpp(145): error C2761: “int MD5::F(void) const”: 不允许成员函数重新声明
+     1>md5\md5.cpp(145): error C2059: 语法错误:“)”
+     1>md5\md5.cpp(145): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>md5\md5.cpp(145): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>md5\md5.cpp(150): error C2143: 语法错误 : 缺少“;”(在“MD5::G”的前面)
+     1>md5\md5.cpp(150): fatal error C1003: 错误计数超过 100；正在停止编译
+         frame.cpp
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\tools.h(18): error C2010: “.”: 宏形参表中的意外
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\tools.h(42): warning C4244: “参数”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\tools.h(47): warning C4244: “参数”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+     1>frame.cpp(87): warning C4244: “=”: 从“uint64_t”转换到“char”，可能丢失数据
+     1>frame.cpp(93): warning C4244: “=”: 从“uint64_t”转换到“char”，可能丢失数据
+     1>frame.cpp(173): error C2059: 语法错误:“)”
+     1>frame.cpp(188): error C2059: 语法错误:“)”
+     1>frame.cpp(194): error C2059: 语法错误:“)”
+     1>frame.cpp(208): error C2059: 语法错误:“)”
+     1>frame.cpp(210): error C2059: 语法错误:“)”
+         user.cpp
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\demo\../connection.h(14): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         demo.cpp
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\tools.h(18): error C2010: “.”: 宏形参表中的意外
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\tools.h(42): warning C4244: “参数”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\tools.h(47): warning C4244: “参数”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\demo\../websocket.h(16): fatal error C1083: 无法打开包括文件:“openssl/sha.h”: No such file or directory
+         connection.cpp
+     1>c:\users\administrator\documents\visual studio 2010\projects\websocket\mywebsocket\connection.h(14): fatal error C1083: 无法打开包括文件:“event2/event.h”: No such file or directory
+         base64.cpp
+     1>base64.cpp(85): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>base64.cpp(96): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+     1>base64.cpp(113): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+         Generating Code...
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\mywebsocket\mywebsocket.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.63

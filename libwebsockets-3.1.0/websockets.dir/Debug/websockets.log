@@ -1,0 +1,210 @@
+﻿生成启动时间为 2019/5/28 17:10:34。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\websockets.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“websockets.dir\Debug\websockets.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“websockets.dir\Debug\websockets.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule C:/Users/Administrator/Desktop/libwebsockets-3.1.0/CMakeLists.txt
+         CMake does not need to re-run because C:/Users/Administrator/Desktop/libwebsockets-3.1.0/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\include" /I"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0Projects\websocket\libwebsockets-3.1.0\plugins" /I"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0" /I"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lib" /I"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\win32port\win32helpers" /IC:\openssl\inc32\openssl /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"websockets.dir\Debug\\" /Fd"websockets.dir\Debug\vc100.pdb" /Gd /TC /errorReport:prompt lib\core\alloc.c lib\core\context.c "lib\core\dummy-callback.c" lib\core\libwebsockets.c lib\core\output.c lib\core\pollfd.c lib\core\service.c "lib\misc\base64-decode.c" "lib\misc\lws-ring.c" "lib\roles\pipe\ops-pipe.c" lib\roles\http\header.c lib\roles\http\server\parsers.c "lib\roles\h1\ops-h1.c" "lib\roles\ws\ops-ws.c" "lib\roles\ws\client-ws.c" "lib\roles\ws\client-parser-ws.c" "lib\roles\ws\server-ws.c" "lib\roles\raw-skt\ops-raw-skt.c" "lib\roles\raw-file\ops-raw-file.c" lib\misc\lwsac\lwsac.c "lib\misc\lwsac\cached-file.c" lib\core\connect.c lib\roles\http\client\client.c "lib\roles\http\client\client-handshake.c" lib\core\adopt.c "lib\roles\listen\ops-listen.c" lib\tls\tls.c lib\tls\openssl\ssl.c "lib\tls\tls-server.c" "lib\tls\openssl\openssl-server.c" "lib\tls\tls-client.c" "lib\tls\openssl\openssl-client.c" "lib\misc\sha-1.c" lib\roles\h2\http2.c lib\roles\h2\hpack.c "lib\roles\h2\ops-h2.c" "lib\plat\windows\windows-fds.c" "lib\plat\windows\windows-file.c" "lib\plat\windows\windows-init.c" "lib\plat\windows\windows-misc.c" "lib\plat\windows\windows-pipe.c" "lib\plat\windows\windows-service.c" "lib\plat\windows\windows-sockets.c" lib\roles\http\server\server.c "lib\roles\http\server\lws-spa.c" "lib\event-libs\poll\poll.c" lib\misc\lejp.c "lib\roles\http\server\lejp-conf.c" win32port\win32helpers\gettimeofday.c
+         alloc.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         context.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         dummy-callback.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         libwebsockets.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         output.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         pollfd.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         service.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         base64-decode.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         lws-ring.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ops-pipe.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         header.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         parsers.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ops-h1.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ops-ws.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         client-ws.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         client-parser-ws.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         server-ws.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ops-raw-skt.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ops-raw-file.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         lwsac.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Generating Code...
+         Compiling...
+         cached-file.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         connect.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         client.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         client-handshake.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         adopt.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ops-listen.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         tls.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ssl.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         tls-server.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         openssl-server.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         tls-client.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         openssl-client.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         sha-1.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         http2.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         hpack.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ops-h2.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         windows-fds.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         windows-file.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         windows-init.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         windows-misc.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Generating Code...
+         Compiling...
+         windows-pipe.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         windows-service.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         windows-sockets.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         server.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         lws-spa.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         poll.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         lejp.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         lejp-conf.c
+     1>C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lws_config_private.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         gettimeofday.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lib\Debug\websockets_static.lib" /NOLOGO websockets.dir\Debug\alloc.obj
+         websockets.dir\Debug\context.obj
+         "websockets.dir\Debug\dummy-callback.obj"
+         websockets.dir\Debug\libwebsockets.obj
+         websockets.dir\Debug\output.obj
+         websockets.dir\Debug\pollfd.obj
+         websockets.dir\Debug\service.obj
+         "websockets.dir\Debug\base64-decode.obj"
+         "websockets.dir\Debug\lws-ring.obj"
+         "websockets.dir\Debug\ops-pipe.obj"
+         websockets.dir\Debug\header.obj
+         websockets.dir\Debug\parsers.obj
+         "websockets.dir\Debug\ops-h1.obj"
+         "websockets.dir\Debug\ops-ws.obj"
+         "websockets.dir\Debug\client-ws.obj"
+         "websockets.dir\Debug\client-parser-ws.obj"
+         "websockets.dir\Debug\server-ws.obj"
+         "websockets.dir\Debug\ops-raw-skt.obj"
+         "websockets.dir\Debug\ops-raw-file.obj"
+         websockets.dir\Debug\lwsac.obj
+         "websockets.dir\Debug\cached-file.obj"
+         websockets.dir\Debug\connect.obj
+         websockets.dir\Debug\client.obj
+         "websockets.dir\Debug\client-handshake.obj"
+         websockets.dir\Debug\adopt.obj
+         "websockets.dir\Debug\ops-listen.obj"
+         websockets.dir\Debug\tls.obj
+         websockets.dir\Debug\ssl.obj
+         "websockets.dir\Debug\tls-server.obj"
+         "websockets.dir\Debug\openssl-server.obj"
+         "websockets.dir\Debug\tls-client.obj"
+         "websockets.dir\Debug\openssl-client.obj"
+         "websockets.dir\Debug\sha-1.obj"
+         websockets.dir\Debug\http2.obj
+         websockets.dir\Debug\hpack.obj
+         "websockets.dir\Debug\ops-h2.obj"
+         "websockets.dir\Debug\windows-fds.obj"
+         "websockets.dir\Debug\windows-file.obj"
+         "websockets.dir\Debug\windows-init.obj"
+         "websockets.dir\Debug\windows-misc.obj"
+         "websockets.dir\Debug\windows-pipe.obj"
+         "websockets.dir\Debug\windows-service.obj"
+         "websockets.dir\Debug\windows-sockets.obj"
+         websockets.dir\Debug\server.obj
+         "websockets.dir\Debug\lws-spa.obj"
+         websockets.dir\Debug\poll.obj
+         websockets.dir\Debug\lejp.obj
+         "websockets.dir\Debug\lejp-conf.obj"
+         websockets.dir\Debug\gettimeofday.obj  /machine:x64
+         websockets.vcxproj -> C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\lib\Debug\websockets_static.lib
+       PostBuildEvent:
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/include/libwebsockets.h C:/Users/Administrator/Desktop/libwebsockets-3.1.0/include/libwebsockets.h
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Administrator/Desktop/libwebsockets-3.1.0/include/libwebsockets/ C:/Users/Administrator/Desktop/libwebsockets-3.1.0/include/libwebsockets
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/lws_config.h C:/Users/Administrator/Desktop/libwebsockets-3.1.0/include/lws_config.h
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Administrator/Desktop/libwebsockets-3.1.0/include/libwebsockets C:/Users/Administrator/Desktop/libwebsockets-3.1.0/include/libwebsockets
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       FinalizeBuildStatus:
+         正在删除文件“websockets.dir\Debug\websockets.unsuccessfulbuild”。
+         正在对“websockets.dir\Debug\websockets.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\websockets.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:24.15

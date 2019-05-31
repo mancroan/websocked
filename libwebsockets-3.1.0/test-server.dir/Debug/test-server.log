@@ -1,0 +1,181 @@
+﻿生成启动时间为 2019/4/24 17:20:08。
+     1>项目“C:\Users\Administrator\Desktop\libwebsockets-3.1.0\test-server.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“test-server.dir\Debug\test-server.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“test-server.dir\Debug\test-server.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         Building Custom Rule C:/Users/Administrator/Desktop/libwebsockets-3.1.0/CMakeLists.txt
+         CMake does not need to re-run because C:/Users/Administrator/Desktop/libwebsockets-3.1.0/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Administrator\Desktop\libwebsockets-3.1.0\include" /I"C:\Users\Administrator\Desktop\libwebsockets-3.1.0\plugins" /I"C:\Users\Administrator\Desktop\libwebsockets-3.1.0" /I"C:\Users\Administrator\Desktop\libwebsockets-3.1.0\lib" /I"C:\Users\Administrator\Desktop\libwebsockets-3.1.0\win32port\win32helpers" /IC:\openssl\inc32\openssl /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "INSTALL_DATADIR=\"C:/Program Files/libwebsockets/share\"" /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"test-server.dir\Debug\\" /Fd"test-server.dir\Debug\vc100.pdb" /Gd /TC /errorReport:prompt "test-apps\test-server.c" win32port\win32helpers\getopt.c win32port\win32helpers\getopt_long.c win32port\win32helpers\gettimeofday.c
+         test-server.c
+         getopt.c
+         getopt_long.c
+         gettimeofday.c
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"test-server.dir\Debug\libwebsockets-test-server.exe.embed.manifest.res" test-server.dir\Debug\libwebsockets-test-server_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\libwebsockets-3.1.0\bin\Debug\libwebsockets-test-server.exe" /INCREMENTAL /NOLOGO lib\Debug\websockets_static.lib C:\openssl\out32dll\libeay32.lib C:\openssl\out32dll\ssleay32.lib ws2_32.lib userenv.lib psapi.lib iphlpapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"test-server.dir\Debug\libwebsockets-test-server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/libwebsockets-test-server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/libwebsockets-3.1.0/lib/Debug/libwebsockets-test-server.lib" /MACHINE:X64 "test-server.dir\Debug\libwebsockets-test-server.exe.embed.manifest.res"
+         "test-server.dir\Debug\test-server.obj"
+         "test-server.dir\Debug\getopt.obj"
+         "test-server.dir\Debug\getopt_long.obj"
+         "test-server.dir\Debug\gettimeofday.obj"  /machine:x64
+         test-server.vcxproj -> C:\Users\Administrator\Desktop\libwebsockets-3.1.0\bin\Debug\libwebsockets-test-server.exe
+       Manifest:
+         正在删除文件“test-server.dir\Debug\libwebsockets-test-server.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"test-server.dir\Debug\libwebsockets-test-server.exe.embed.manifest" /manifest "test-server.dir\Debug\libwebsockets-test-server.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"test-server.dir\Debug\libwebsockets-test-server.exe.embed.manifest.res" test-server.dir\Debug\libwebsockets-test-server_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\libwebsockets-3.1.0\bin\Debug\libwebsockets-test-server.exe" /INCREMENTAL /NOLOGO lib\Debug\websockets_static.lib C:\openssl\out32dll\libeay32.lib C:\openssl\out32dll\ssleay32.lib ws2_32.lib userenv.lib psapi.lib iphlpapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"test-server.dir\Debug\libwebsockets-test-server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/libwebsockets-test-server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Administrator/Desktop/libwebsockets-3.1.0/lib/Debug/libwebsockets-test-server.lib" /MACHINE:X64 "test-server.dir\Debug\libwebsockets-test-server.exe.embed.manifest.res"
+         "test-server.dir\Debug\test-server.obj"
+         "test-server.dir\Debug\getopt.obj"
+         "test-server.dir\Debug\getopt_long.obj"
+         "test-server.dir\Debug\gettimeofday.obj"  /machine:x64
+         test-server.vcxproj -> C:\Users\Administrator\Desktop\libwebsockets-3.1.0\bin\Debug\libwebsockets-test-server.exe
+       PostBuildEvent:
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/libwebsockets-test-server.key.pem C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/libwebsockets-test-server.pem C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/test-apps/favicon.ico C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/test-apps/leaf.jpg C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/test-apps/candide.zip C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/test-apps/libwebsockets.org-logo.svg C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/test-apps/http2.png C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/test-apps/wss-over-h2.png C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/test-apps/lws-common.js C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/test-apps/test.html C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/test-apps/test.css C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Administrator/Desktop/libwebsockets-3.1.0/test-apps/test.js C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug/../share/libwebsockets-test-server
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Windows/System32/libeay32.dll C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "D:\Program Files\CMake\bin\cmake.exe" -E copy C:/Windows/System32/ssleay32.dll C:/Users/Administrator/Desktop/libwebsockets-3.1.0/bin/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       FinalizeBuildStatus:
+         正在删除文件“test-server.dir\Debug\test-server.unsuccessfulbuild”。
+         正在对“test-server.dir\Debug\test-server.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\libwebsockets-3.1.0\test-server.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.96

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="demo">
+      <UniqueIdentifier>{5ea93fcb-99c7-41a1-8552-98d9c9ba6fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="md5">
+      <UniqueIdentifier>{40c7e973-31c7-46ca-8ece-93f8c99224e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="demo\demo.cpp">
+      <Filter>demo</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\user.cpp">
+      <Filter>demo</Filter>
+    </ClCompile>
+    <ClCompile Include="md5\md5.cpp">
+      <Filter>md5</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="connection.cpp" />
+    <ClCompile Include="frame.cpp" />
+    <ClCompile Include="websocket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="demo\demo.h">
+      <Filter>demo</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\user.h">
+      <Filter>demo</Filter>
+    </ClInclude>
+    <ClInclude Include="md5\md5.h">
+      <Filter>md5</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="connection.h" />
+    <ClInclude Include="frame.h" />
+    <ClInclude Include="tools.h" />
+    <ClInclude Include="websocket.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chat.htm" />
+  </ItemGroup>
+</Project>

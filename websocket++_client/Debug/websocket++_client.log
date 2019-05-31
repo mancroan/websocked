@@ -1,0 +1,140 @@
+﻿生成启动时间为 2019/4/9 11:22:43。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\gateway\websocket++_client\websocket++_client.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\websocket++_client.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\websocket++_client.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt echo_client.cpp
+         echo_client.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : 参见“std::_Copy_impl”的声明
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\frame.hpp(255): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<uint8_t*,uint8_t*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=uint8_t *,
+                     _InIt=uint8_t *
+                 ]
+     1>c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\connection.hpp(302): warning C4355: “this”: 用于基成员初始值设定项列表
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\connection.hpp(297): 编译类 模板 成员函数“websocketpp::connection<config>::connection(bool,const std::string &,const std::tr1::shared_ptr<_Ty> &,const std::tr1::shared_ptr<websocketpp::log::basic<concurrency,names>> &,websocketpp::random::random_device::int_generator<int_type,concurrency> &)”时
+                 with
+                 [
+                     config=websocketpp::config::asio_client,
+                     _Ty=websocketpp::log::basic<websocketpp::config::core_client::concurrency_type,websocketpp::log::alevel>,
+                     concurrency=websocketpp::config::core_client::concurrency_type,
+                     names=websocketpp::log::elevel,
+                     int_type=uint32_t
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\endpoint.hpp(56): 参见对正在编译的类 模板 实例化“websocketpp::connection<config>”的引用
+                 with
+                 [
+                     config=websocketpp::config::asio_client
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\roles\client_endpoint.hpp(47): 参见对正在编译的类 模板 实例化“websocketpp::endpoint<connection,config>”的引用
+                 with
+                 [
+                     connection=websocketpp::connection<websocketpp::config::asio_client>,
+                     config=websocketpp::config::asio_client
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++_client\echo_client.cpp(52): 参见对正在编译的类 模板 实例化“websocketpp::client<config>”的引用
+                 with
+                 [
+                     config=websocketpp::config::asio_client
+                 ]
+     1>c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\connection.hpp(308): warning C4355: “this”: 用于基成员初始值设定项列表
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : 参见“std::_Copy_impl”的声明
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\processors\hybi00.hpp(119): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const _Elem*,char*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=char *,
+                     _Elem=char,
+                     _InIt=const char *
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\processors\hybi00.hpp(102): 编译类 模板 成员函数“std::error_code websocketpp::processor::hybi00<config>::process_handshake(const websocketpp::http::parser::request &,const std::string &,websocketpp::http::parser::response &) const”时
+                 with
+                 [
+                     config=websocketpp::config::asio_client
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\type_traits(554): 参见对正在编译的类 模板 实例化“websocketpp::processor::hybi00<config>”的引用
+                 with
+                 [
+                     config=websocketpp::config::asio_client
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\impl\connection_impl.hpp(2173): 参见对正在编译的类 模板 实例化“std::tr1::is_convertible<_From,_To>”的引用
+                 with
+                 [
+                     _From=websocketpp::processor::hybi00<websocketpp::config::asio_client> *,
+                     _To=websocketpp::processor::processor<websocketpp::config::asio_client> *
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\impl\connection_impl.hpp(2162): 编译类 模板 成员函数“std::tr1::shared_ptr<_Ty> websocketpp::connection<config>::get_processor(int) const”时
+                 with
+                 [
+                     _Ty=websocketpp::processor::processor<websocketpp::config::asio_client>,
+                     config=websocketpp::config::asio_client
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\impl\connection_impl.hpp(85): 编译类 模板 成员函数“std::error_code websocketpp::connection<config>::send(const std::string &,websocketpp::frame::opcode::value)”时
+                 with
+                 [
+                     config=websocketpp::config::asio_client
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\impl\connection_impl.hpp(430): 编译类 模板 成员函数“websocketpp::uri_ptr websocketpp::connection<config>::get_uri(void) const”时
+                 with
+                 [
+                     config=websocketpp::config::asio_client
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : 参见“std::_Copy_impl”的声明
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\processors\hybi00.hpp(436): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<char*,char*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=char *
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\processors\hybi00.hpp(417): 编译类 模板 成员函数“void websocketpp::processor::hybi00<config>::decode_client_key(const std::string &,char *) const”时
+                 with
+                 [
+                     config=websocketpp::config::asio_client
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : 参见“std::_Copy_impl”的声明
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\processors\hybi13.hpp(779): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const uint8_t*,uint8_t*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=uint8_t *,
+                     _InIt=const uint8_t *
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\processors\hybi13.hpp(776): 编译类 模板 成员函数“size_t websocketpp::processor::hybi13<config>::copy_extended_header_bytes(const uint8_t *,size_t)”时
+                 with
+                 [
+                     config=websocketpp::config::asio_client
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\processors\hybi08.hpp(44): 参见对正在编译的类 模板 实例化“websocketpp::processor::hybi13<config>”的引用
+                 with
+                 [
+                     config=websocketpp::config::asio_client
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\processors\hybi07.hpp(44): 参见对正在编译的类 模板 实例化“websocketpp::processor::hybi08<config>”的引用
+                 with
+                 [
+                     config=websocketpp::config::asio_client
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\type_traits(554): 参见对正在编译的类 模板 实例化“websocketpp::processor::hybi07<config>”的引用
+                 with
+                 [
+                     config=websocketpp::config::asio_client
+                 ]
+                 c:\users\administrator\documents\visual studio 2010\projects\gateway\websocket++\websocketpp\websocketpp\impl\connection_impl.hpp(2181): 参见对正在编译的类 模板 实例化“std::tr1::is_convertible<_From,_To>”的引用
+                 with
+                 [
+                     _From=websocketpp::processor::hybi07<websocketpp::config::asio_client> *,
+                     _To=websocketpp::processor::processor<websocketpp::config::asio_client> *
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\gateway\Debug\websocket++_client.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\websocket++_client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\gateway\Debug\websocket++_client.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\Visual Studio 2010\Projects\gateway\Debug\websocket++_client.lib" /MACHINE:X86 Debug\echo_client.obj
+     1>libboost_chrono-vc100-mt-gd-1_61.lib(chrono.obj) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\gateway\websocket++_client\websocket++_client.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:14.57

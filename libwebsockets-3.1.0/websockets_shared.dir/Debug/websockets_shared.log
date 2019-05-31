@@ -1,0 +1,30 @@
+﻿生成启动时间为 2019/5/28 11:34:39。
+     1>项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\websockets_shared.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1422,5): warning : The referenced project 'C:\Users\Administrator\Desktop\libwebsockets-3.1.0\ZERO_CHECK.vcxproj' does not exist.
+     1>InitializeBuildStatus:
+         正在对“websockets_shared.dir\Debug\websockets_shared.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         Building Custom Rule C:/Users/Administrator/Desktop/libwebsockets-3.1.0/CMakeLists.txt
+         CMake is re-running because C:/Users/Administrator/Desktop/libwebsockets-3.1.0/CMakeFiles/generate.stamp dependency file is missing.
+         -- CMAKE_TOOLCHAIN_FILE=''
+         -- Could NOT find Git (missing: GIT_EXECUTABLE) 
+         Compiling with SSL support
+         CMake Error at D:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+           Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the
+           system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY
+           OPENSSL_INCLUDE_DIR)
+         Call Stack (most recent call first):
+           D:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
+           D:/Program Files/CMake/share/cmake-3.14/Modules/FindOpenSSL.cmake:413 (find_package_handle_standard_args)
+           CMakeLists.txt:1462 (find_package)
+         
+         
+         -- Configuring incomplete, errors occurred!
+         See also "C:/Users/Administrator/Desktop/libwebsockets-3.1.0/CMakeFiles/CMakeOutput.log".
+         See also "C:/Users/Administrator/Desktop/libwebsockets-3.1.0/CMakeFiles/CMakeError.log".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: “cmd.exe”已退出，代码为 1。
+     1>已完成生成项目“C:\Users\Administrator\Documents\Visual Studio 2010\Projects\websocket\libwebsockets-3.1.0\websockets_shared.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.38
